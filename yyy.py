@@ -48,3 +48,7 @@ class BST:
         all_words = self.inorder_traversal()  # Ambil semua kata dari BST
         suggestions = [word for word in all_words if word.startswith(prefix)]  # Cari kata yang diawali dengan prefix
         return suggestions  # Kembalikan daftar saran kata
+
+
+
+# new updated
